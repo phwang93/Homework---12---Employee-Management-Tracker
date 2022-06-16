@@ -4,8 +4,8 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
     host: 'localhost',
 
-    // DB Port
-    port: 3005,
+    // DB Port MAMP
+    port: 8889,
 
     //DB Username
     user: 'root',
@@ -17,8 +17,7 @@ const connection = mysql.createConnection({
 
 // MySQL connection start
 connection.connect(error => {
-    if (error) throw error
-    console.log("CONNECTION NOT ACTIVE");
+    if (error) console.log("CONNECTION NOT ACTIVE", error)
 
 });
 
