@@ -89,7 +89,7 @@ const addDepartment = async () => {
 
         // create the department in the db
         await newData.createDepartment(newDept);
-        console.log(`${newDept.deptName} department added!`);
+        console.log(`${newDept.deptName} department added!😊`);
 
 
     } catch (err) {
@@ -144,7 +144,7 @@ const addRole = async () => {
 
         // create the role in the db
         await newData.createRole(newRole);
-        console.log(`${newRole.roleTitle} role added!`);
+        console.log(`${newRole.roleTitle} role added!😊`);
 
 
     } catch (err) {

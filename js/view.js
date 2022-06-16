@@ -113,7 +113,7 @@ const viewEmployeesByMgr = async () => {
         const rows = await newData.getEmployeesByMgr(chosenMgr.mgrId);
         // if the manager has no employees, tell the user
         if (!rows.length) {
-            console.log("This manager has no employees.");
+            console.log("This manager has no employees.😐");
         } else {
             // display the manager's employees
             console.log("\n------------------------\n")
