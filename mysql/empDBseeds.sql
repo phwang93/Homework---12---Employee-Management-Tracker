@@ -18,5 +18,6 @@ VALUES ("Philip", "Hwang", 3, NULL),
 ("Samy", "Tann", 4, 1), 
 ("Debbi", "U", 6, NULL), 
 ("Neo", "Du", 2, NULL), 
-("Keeler", "Cowie", 1, 4);
+("Keeler", "Cowie", 1, 4),
+("Nick", "Choi", 5, 2);
 

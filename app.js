@@ -79,7 +79,7 @@ const init = async () => {
     }
 };
 
-// Displays start graphic and starts the init function
+// Displays start and title, and starts the init function
 const start = () => {
         console.log("\n")
         console.log("       ****************************************")
