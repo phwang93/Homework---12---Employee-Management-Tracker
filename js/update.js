@@ -61,7 +61,7 @@ const updateEmpRole = async () => {
         // update the employee's role in the db
         await newData.updateEmpRole(newRole.roleId, updateEmp.empId)
         console.log("\n")
-        console.log("Role Updated.😊")
+        console.log(`Role Updated.😊`)
 
     } catch (err) {
         console.log(err);

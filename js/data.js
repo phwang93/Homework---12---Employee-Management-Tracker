@@ -1,4 +1,4 @@
-const connection = require("./connection");
+const connection = require("../config/connection");
 const util = require('util');
 
 // Promises for MySQL Queries
