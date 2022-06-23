@@ -1,12 +1,12 @@
 # Homework - 12 - Employee Management Tracker
-Create an application called Note Taker that can be used to write and save notes,using Express. 
+Create an application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 <p align = "center">
 <img alt="preview" src="./imgs/screenshot.png">
 </p>
 
 ## Description
- This application allows a user to manage his company
+ The Employee Management System is a Node.js cli application to view and manage company employees. The application accesses employee data in a MySQL database which stores employees, departments, and roles. 
 ### Employees
 
 * View All Employees
